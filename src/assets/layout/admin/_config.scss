@@ -1,0 +1,16 @@
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: calc(100vh - 132px);
+}
+
+.form-login {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+@import './sb-admin-2.scss';

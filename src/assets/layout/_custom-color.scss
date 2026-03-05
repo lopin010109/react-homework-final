@@ -1,0 +1,7 @@
+// --- 客制顏色到 bootstrap ---
+$theme-colors: map-merge(
+  $theme-colors,
+  (
+    "gold": #d4af37,
+  )
+);
