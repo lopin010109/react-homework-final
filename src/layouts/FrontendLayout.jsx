@@ -102,8 +102,12 @@ export default function FrontendLayout() {
         <div className="bg-dark">
           <div className="container">
             <div className="d-flex align-items-center justify-content-between text-white py-4">
-              <p className="mb-0">僅作練習使用，無任何商業用途</p>
-              <p className="mb-0">Copyright © 2026 御葵茶品</p>
+              <p className="mb-0" style={{ fontSize: '0.75rem' }}>
+                僅作練習使用，無任何商業用途
+              </p>
+              <p className="mb-0" style={{ fontSize: '0.75rem' }}>
+                Copyright © 2026 御葵茶品
+              </p>
               <ul className="d-flex list-unstyled mb-0 h4">
                 <li>
                   <a href="#" className="text-white mx-3">
