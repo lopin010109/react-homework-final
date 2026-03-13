@@ -1,0 +1,19 @@
+.navbar-custom-scroll::-webkit-scrollbar {
+  display: none;
+}
+.navbar-custom-scroll {
+  -ms-overflow-style: none;
+}
+
+@include media-breakpoint-down(md) {
+  .custom-header-md-open {
+    position: absolute;
+    top: 100%;
+    right: 0px;
+    left: 0px;
+  }
+}
+
+.navbar {
+  --bs-navbar-nav-link-padding-x: 1.5rem;
+}

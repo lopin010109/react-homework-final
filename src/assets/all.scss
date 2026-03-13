@@ -1,0 +1,16 @@
+@import '../../node_modules/bootstrap/scss/functions';
+@import 'helpers/variables';
+@import '../../node_modules/bootstrap/scss/mixins';
+
+@import './layout/custom-color';
+
+@import '../../node_modules/bootstrap/scss/bootstrap';
+
+@import './layout/custom';
+@import './layout/admin/config';
+
+// Update the import directory to point to it`s location within node_modules
+$bootstrap-icons-font-dir: 'bootstrap-icons/font/fonts';
+
+// Import the Sass files as usual
+@import 'bootstrap-icons/font/bootstrap-icons';
